@@ -6,7 +6,7 @@ public class EvenOdd {
         int n = sc.nextInt();
 
         if(n%2 == 0) System.out.println("The number is even.");
-        if(n%2 == 1) System.out.println("The number is Odd.");
+        else System.out.println("The number is Odd.");
 
 
     }
