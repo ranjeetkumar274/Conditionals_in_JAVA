@@ -12,6 +12,9 @@ public class ProfitLoss {
         if(sp<cp){
             System.out.println(-(sp-cp)+" is the Loss.");
         }
+        if(sp == cp){
+            System.out.println("there is no LOSS and no PROFIT.");
+        }
 
     }
 }
