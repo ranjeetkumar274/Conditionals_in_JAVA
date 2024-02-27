@@ -8,7 +8,7 @@ public class triangle {
         int b = read.nextInt();
         System.out.print("Enter your 3rd side : ");
         int c = read.nextInt();
-        if((a*a+b*b > c*c) || (a*a+c*c > b*b) || (b*b+c*c > a*a)){
+        if((a+b > c) && (a+c > b) && (b+c > a)){
             System.out.println("this is a valid triangle.");
 
         }
